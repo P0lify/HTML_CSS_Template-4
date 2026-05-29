@@ -19,86 +19,88 @@
   </head>
   <body>
     <div class="page d-flex">
-      <div class="sidebar p-20 p-relative bg-white">
+      <aside class="p-20 p-relative bg-white">
         <h3 class="p-relative mt-0 txt-c">P0lify</h3>
-        <ul>
-          <li>
-            <a
-              href="index.html"
-              class="active d-flex align-c fs-14 c-black rad-6 p-10"
-            >
-              <i class="fa-regular fa-chart-bar fa-fw"></i>
-              <span class="fs-14 hid-mobile">Dashboard</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="settings.html"
-              class="d-flex align-c fs-14 c-black rad-6 p-10"
-            >
-              <i class="fa-solid fa-gear fa-fw"></i>
-              <span class="fs-14 hid-mobile">Settings</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="profile.html"
-              class="d-flex align-c fs-14 c-black rad-6 p-10"
-            >
-              <i class="fa-regular fa-user fa-fw"></i>
-              <span class="fs-14 hid-mobile">Profile</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="projects.html"
-              class="d-flex align-c fs-14 c-black rad-6 p-10"
-            >
-              <i class="fa-solid fa-diagram-project fa-fw"></i>
-              <span class="fs-14 hid-mobile">Projects</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="courses.html"
-              class="d-flex align-c fs-14 c-black rad-6 p-10"
-            >
-              <i class="fa-solid fa-graduation-cap fa-fw"></i>
-              <span class="fs-14 hid-mobile">Courses</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="friends.html"
-              class="d-flex align-c fs-14 c-black rad-6 p-10"
-            >
-              <i class="fa-regular fa-circle-user fa-fw"></i>
-              <span class="fs-14 hid-mobile">Friends</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="files.html"
-              class="d-flex align-c fs-14 c-black rad-6 p-10"
-            >
-              <i class="fa-regular fa-file fa-fw"></i>
-              <span class="fs-14 hid-mobile">Files</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="plans.html"
-              class="d-flex align-c fs-14 c-black rad-6 p-10"
-            >
-              <i class="fa-regular fa-credit-card"></i>
-              <span class="fs-14 hid-mobile">Plans</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="content w-full">
+        <nav>
+          <ul>
+            <li>
+              <a
+                href="index.html"
+                class="active d-flex align-c fs-14 c-black rad-6 p-10"
+              >
+                <i class="fa-regular fa-chart-bar fa-fw"></i>
+                <span class="fs-14 hid-mobile">Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="settings.html"
+                class="d-flex align-c fs-14 c-black rad-6 p-10"
+              >
+                <i class="fa-solid fa-gear fa-fw"></i>
+                <span class="fs-14 hid-mobile">Settings</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="profile.html"
+                class="d-flex align-c fs-14 c-black rad-6 p-10"
+              >
+                <i class="fa-regular fa-user fa-fw"></i>
+                <span class="fs-14 hid-mobile">Profile</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="projects.html"
+                class="d-flex align-c fs-14 c-black rad-6 p-10"
+              >
+                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                <span class="fs-14 hid-mobile">Projects</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="courses.html"
+                class="d-flex align-c fs-14 c-black rad-6 p-10"
+              >
+                <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                <span class="fs-14 hid-mobile">Courses</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="friends.html"
+                class="d-flex align-c fs-14 c-black rad-6 p-10"
+              >
+                <i class="fa-regular fa-circle-user fa-fw"></i>
+                <span class="fs-14 hid-mobile">Friends</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="files.html"
+                class="d-flex align-c fs-14 c-black rad-6 p-10"
+              >
+                <i class="fa-regular fa-file fa-fw"></i>
+                <span class="fs-14 hid-mobile">Files</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="plans.html"
+                class="d-flex align-c fs-14 c-black rad-6 p-10"
+              >
+                <i class="fa-regular fa-credit-card"></i>
+                <span class="fs-14 hid-mobile">Plans</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="w-full">
         <!-- Head -->
-        <div class="head bg-white p-15 between-flex">
+        <header class="bg-white p-15 between-flex">
           <div class="search p-relative">
             <input
               class="p-10 rad-10"
@@ -112,12 +114,12 @@
             </span>
             <img src="images/avatar.webp" alt="" />
           </div>
-        </div>
+        </header>
         <!-- End Head -->
         <h1 class="p-relative">Dashboard</h1>
-        <div class="wrapper d-grid gap-20">
+        <section class="wrapper d-grid gap-20">
           <!-- Welcome widget -->
-          <div class="welcome bg-white rad-10 txt-c-mobile">
+          <article class="welcome bg-white rad-10 txt-c-mobile">
             <div class="intro bg-eee p-20 d-flex space-between">
               <div>
                 <h2 class="m-0">Welcome</h2>
@@ -143,10 +145,10 @@
             <a class="d-block bg-blue c-white fs-14 w-fit btn-shape" href="#"
               >Profile</a
             >
-          </div>
+          </article>
           <!-- End Welcome widget -->
           <!-- Quick Draft Widget -->
-          <div class="quick-draft bg-white rad-10 p-20">
+          <article class="quick-draft bg-white rad-10 p-20">
             <h2 class="mt-0 mb-10">Quick Draft</h2>
             <p class="mt-0 mb-20 fs-15 c-grey">Write A Draft For Your Ideas</p>
             <form action="">
@@ -167,10 +169,10 @@
                 value="Save"
               />
             </form>
-          </div>
+          </article>
           <!-- End Quick Draft Widget -->
           <!-- Targets Widget -->
-          <div class="targets bg-white p-20 rad-10">
+          <article class="targets bg-white p-20 rad-10">
             <h2 class="mt-0 mb-10">Yearly Targets</h2>
             <p class="mt-0 mb-20 c-grey fs-15">Targets Of The Year</p>
             <div class="target-row blue center-flex mb-20">
@@ -215,10 +217,10 @@
                 </div>
               </div>
             </div>
-          </div>
+          </article>
           <!-- End Targets Widget -->
           <!-- Ticket Widget -->
-          <div class="tickets p-20 bg-white rad-10">
+          <article class="tickets p-20 bg-white rad-10">
             <h2 class="mt-0 mb-10">Tickets Statistics</h2>
             <p class="mt-0 mb-20 fs-15 c-grey">
               Everything About Support Tickets
@@ -247,10 +249,10 @@
                 Deleted
               </div>
             </div>
-          </div>
+          </article>
           <!-- End Ticket Widget -->
           <!-- Latest News Widget -->
-          <div class="latest-news p-20 bg-white rad-10">
+          <article class="latest-news p-20 bg-white rad-10">
             <h2 class="mt-0 mb-20">Latest News</h2>
             <div class="news-row d-flex align-c">
               <img src="images/news-01.webp" alt="" />
@@ -284,10 +286,10 @@
               </div>
               <div class="label btn-shape fs-13 bg-eee">9 Days Ago</div>
             </div>
-          </div>
+          </article>
           <!-- End Latest News Widget -->
           <!-- Tasks Widget -->
-          <div class="tasks p-20 bg-white rad-10">
+          <article class="tasks p-20 bg-white rad-10">
             <h2 class="mt-0 mb-20">Latest Tasks</h2>
             <div class="task-row between-flex">
               <div class="info">
@@ -328,10 +330,10 @@
               </div>
               <i class="fa-regular fa-trash-can delete"></i>
             </div>
-          </div>
+          </article>
           <!-- End Tasks Widget -->
           <!-- Top Search Word Widget0 -->
-          <div class="search-items p-20 bg-white rad-10">
+          <article class="search-items p-20 bg-white rad-10">
             <h2 class="mt-0 mb-20">Top Search Items</h2>
             <div class="head-items c-grey mb-10 d-flex space-between">
               <div>Keyword</div>
@@ -361,10 +363,10 @@
               <span>Logic</span>
               <span class="bg-eee btn-shape fs-13">95</span>
             </div>
-          </div>
+          </article>
           <!-- End Top Search Word Widget -->
           <!-- Latest Uploads Widget -->
-          <div class="latest-uploads bg-white p-20 rad-10">
+          <article class="latest-uploads bg-white p-20 rad-10">
             <h2 class="mb-20 mt-0">Latest Uploads</h2>
             <ul class="m-0">
               <li class="between-flex pb-10 mb-10">
@@ -428,10 +430,10 @@
                 <span class="btn-shape bg-eee fs-13">8.9mb</span>
               </li>
             </ul>
-          </div>
+          </article>
           <!-- End Latest Uploads Widget -->
           <!-- Last Project Progress Widget -->
-          <div class="last-project bg-white p-20 rad-10 p-relative">
+          <article class="last-project bg-white p-20 rad-10 p-relative">
             <h2 class="mt-0 mb-20">Last Project Progress</h2>
             <ul class="m-0 p-relative">
               <li class="mt-25 d-flex align-c done">Got The Project</li>
@@ -445,10 +447,10 @@
               </li>
             </ul>
             <img src="images/project.webp" alt="" />
-          </div>
+          </article>
           <!-- End Last Project Progress Widget -->
           <!-- Start Reminders Widget -->
-          <div class="reminders p-20 rad-10 bg-white">
+          <article class="reminders p-20 rad-10 bg-white">
             <h2 class="mt-0 mb-25">Reminders</h2>
             <ul class="m-0">
               <li class="d-flex align-c mt-15">
@@ -482,10 +484,10 @@
                 </div>
               </li>
             </ul>
-          </div>
+          </article>
           <!-- End Start Reminders Widget -->
           <!-- Latest Post Widget -->
-          <div class="latest-post p-20 rad-10 bg-white">
+          <article class="latest-post p-20 rad-10 bg-white">
             <h2 class="mt-0 mb-25">Latest Post</h2>
             <div class="top d-flex align-c">
               <img class="rad-half mr-15" src="images/avatar.webp" alt="" />
@@ -509,10 +511,10 @@
                 <span>500</span>
               </div>
             </div>
-          </div>
+          </article>
           <!-- End Latest Post Widget -->
           <!-- Social Media Stats Widget -->
-          <div class="social-media p-20 rad-10 bg-white">
+          <article class="social-media p-20 rad-10 bg-white">
             <h2 class="mt-0 mb-25">Social Media Stats</h2>
             <div class="box twitter p-15 mb-10 p-relative between-flex">
               <i class="fa-brands fa-twitter fa-2x c-white h-full"></i>
@@ -534,9 +536,9 @@
               <span>70K Followers</span>
               <a class="fs-13 c-white btn-shape">Follow</a>
             </div>
-          </div>
+          </article>
           <!-- End Social Media Stats Widget -->
-        </div>
+        </section>
         <!-- Projects Table -->
         <div class="projects p-20 m-20 rad-10 bg-white">
           <h2 class="mt-0 mb-20">Projects</h2>
@@ -651,7 +653,7 @@
           </div>
         </div>
         <!-- End Projects Table -->
-      </div>
+      </main>
     </div>
   </body>
 </html>
